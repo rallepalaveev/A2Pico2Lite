@@ -1390,7 +1390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5e965ea6-9e5c-40bf-a37a-b1c9770e72e2")
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2674459e-8d39-4d91-83ec-c9f7a07bc55a")
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b1f59a86-02ae-4d62-9662-10991ab2b96d")
@@ -9211,7 +9211,7 @@
 			)
 		)
 	)
-	(gr_text "GP1 IRQ GND"
+	(gr_text "GP0 IRQ GND"
 		(at 117.2702 114.10505 0)
 		(layer "F.SilkS")
 		(uuid "c0a7770c-114d-4240-92e3-8ad513709fa7")

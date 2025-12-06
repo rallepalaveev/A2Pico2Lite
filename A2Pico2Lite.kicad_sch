@@ -4132,6 +4132,36 @@
 		)
 		(uuid "f95f5ec3-1d7c-4ddd-8ae3-7ae85c92027f")
 	)
+	(text "GP0"
+		(exclude_from_sim no)
+		(at 129.032 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "250c8f40-ab41-4967-a14a-a216270de4ee")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 129.032 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c855df9-e7da-4e9d-bc4e-82a0da93cac6")
+	)
+	(text "~{IRQ}"
+		(exclude_from_sim no)
+		(at 129.032 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e091ca73-3f5a-4303-a597-7f00299d4236")
+	)
 	(global_label "D4"
 		(shape input)
 		(at 114.3 81.28 0)
