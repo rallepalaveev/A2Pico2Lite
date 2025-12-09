@@ -6232,7 +6232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89e45636-ec8b-4c1f-a910-cd710c78f8ab")
-		(property "Reference" "J3"
+		(property "Reference" "H2"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -6428,7 +6428,7 @@
 		(instances
 			(project "A2Pico.v2.7"
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "J3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6444,7 +6444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f57fc55-8027-400d-a55e-c9389f9a509f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 139.7 58.4199 90)
 			(effects
 				(font
@@ -6498,7 +6498,7 @@
 		(instances
 			(project ""
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6644,7 +6644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a776167a-4e4a-4e31-b6ab-9dac703840f1")
-		(property "Reference" "J1"
+		(property "Reference" "H1"
 			(at 120.65 40.64 0)
 			(effects
 				(font
@@ -6699,7 +6699,7 @@
 		(instances
 			(project ""
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "J1")
+					(reference "H1")
 					(unit 1)
 				)
 			)
