@@ -1,12 +1,10 @@
 # A2Pico2 Reference Hardware
 
-This repository is the home of the A2Pico2Lite-TH reference hardware based on the RPii Pico2. It is an expansion mass storage card for Apple2 computers. It is a limited version of the A2Pico2 design with the restriction that it can use only a USB stick as a storage device. Please refer to the repository at https://github.com/oliverschmidt/a2pico2lite for general information on A2Pico2.
+This repository is the home of the A2Pico2Lite-TH reference hardware based on the RPi Pico2. It is an expansion mass storage card for Apple2 computers. It is a limited version of the A2Pico2 design with the restriction that it can use only a USB stick as a storage device. Please refer to the repository at https://github.com/oliverschmidt/a2pico2lite for general information on A2Pico2.
 
 ## Hardware Revision History
 
-Version 1.0 is the innitial design.
-
-Version 1.1 is the current version with added parallel capacitors to the voltage dividers of the 5V non-tolerant GPIOs for correction of the waveforms.
+Version 1.0.
 
 The GPIO usage is as follows:
 
