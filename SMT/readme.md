@@ -4,7 +4,7 @@ This repository is the home of the A2Pico2Lite-SMD reference hardware based on t
 
 ## Hardware Revision History
 
-Version 1.0 is the innitial design.
+Version 1.0 is the initial design.
 
 Version 1.1 is the current version with added parallel capacitors to the voltage dividers of the 5V non-tolerant GPIOs for correction of the waveforms.
 
