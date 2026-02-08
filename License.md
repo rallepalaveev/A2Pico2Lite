@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Ralle Palaveev
+Copyright (c) 2026 Ralle Palaveev
 All rights reserved.
 
 Redistribution and use in source, binary, and manufactued forms, with or without
