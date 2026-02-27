@@ -5194,22 +5194,10 @@
 		(uuid "7b2dbfee-65fc-4c9a-9be2-829584618da7")
 	)
 	(junction
-		(at 172.72 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82aede64-07d5-4c51-998a-ee62552efc99")
-	)
-	(junction
 		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "831e4e96-8e49-4faf-910e-8b7397c953ec")
-	)
-	(junction
-		(at 181.61 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8736d103-92e0-448e-bc0e-790e05434bbf")
 	)
 	(junction
 		(at 123.19 66.04)
@@ -5248,12 +5236,6 @@
 		(uuid "95f7dce7-22e1-4a97-bfce-0dfc6a8a4318")
 	)
 	(junction
-		(at 185.42 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a0d97ed-fc17-4e88-afb6-36e967f71a2b")
-	)
-	(junction
 		(at 123.19 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5270,12 +5252,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a39e5613-6479-4a75-bab9-a8e5544cafd3")
-	)
-	(junction
-		(at 195.58 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6ca6a10-6f3d-42f5-b2e1-f01884f566ea")
 	)
 	(junction
 		(at 187.96 77.47)
@@ -5344,12 +5320,6 @@
 		(uuid "c6537e21-d41f-42df-b2ab-b5b937b614a9")
 	)
 	(junction
-		(at 172.72 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c98db394-abad-4d36-9646-930c5d5b5b4d")
-	)
-	(junction
 		(at 172.72 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5399,16 +5369,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 196.85 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0317e4fb-c548-4032-9373-aaea9748f7ee")
-	)
-	(wire
-		(pts
 			(xy 154.94 91.44) (xy 152.4 91.44)
 		)
 		(stroke
@@ -5419,16 +5379,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087b4dcd-319f-49ba-bc0b-e91eca7ead08")
-	)
-	(wire
-		(pts
 			(xy 187.96 77.47) (xy 180.34 77.47)
 		)
 		(stroke
@@ -5436,16 +5386,6 @@
 			(type default)
 		)
 		(uuid "0a6f2eb8-ae5c-4baa-9a4e-98c67d68d7b9")
-	)
-	(wire
-		(pts
-			(xy 193.04 134.62) (xy 195.58 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aaa8875-7cd4-495d-b893-41359cab6891")
 	)
 	(wire
 		(pts
@@ -5499,7 +5439,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 129.54) (xy 195.58 129.54)
+			(xy 194.31 129.54) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5669,16 +5609,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 127) (xy 196.85 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2600ff6e-4b19-455f-9463-789afacca694")
-	)
-	(wire
-		(pts
 			(xy 232.41 31.75) (xy 232.41 38.1)
 		)
 		(stroke
@@ -5756,16 +5686,6 @@
 			(type solid)
 		)
 		(uuid "318259e8-e786-4ff4-be55-78fac89d168d")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 172.72 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322ca766-8007-45f2-b957-540fcae56824")
 	)
 	(wire
 		(pts
@@ -5949,7 +5869,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 129.54) (xy 185.42 134.62)
+			(xy 185.42 129.54) (xy 185.42 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6269,16 +6189,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 120.65) (xy 162.56 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "663c1662-d3c9-4d23-97e8-82e33ed18145")
-	)
-	(wire
-		(pts
 			(xy 226.06 130.81) (xy 241.3 130.81)
 		)
 		(stroke
@@ -6306,16 +6216,6 @@
 			(type default)
 		)
 		(uuid "6d26f15b-8c17-4e2f-88e7-58ea01787c03")
-	)
-	(wire
-		(pts
-			(xy 172.72 120.65) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9543e7-7d08-401a-a4dc-988ecb7a9732")
 	)
 	(wire
 		(pts
@@ -6709,7 +6609,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 124.46) (xy 172.72 124.46)
+			(xy 170.18 124.46) (xy 196.85 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6746,26 +6646,6 @@
 			(type solid)
 		)
 		(uuid "9ac526b4-c18f-4476-80f1-331627e6ecb9")
-	)
-	(wire
-		(pts
-			(xy 185.42 134.62) (xy 187.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9affac19-07cc-4bf8-925a-082046539e99")
-	)
-	(wire
-		(pts
-			(xy 195.58 129.54) (xy 196.85 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b19e1e7-e760-4b94-a034-9840018af2fa")
 	)
 	(wire
 		(pts
@@ -6869,7 +6749,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 127) (xy 181.61 127)
+			(xy 180.34 127) (xy 196.85 127)
 		)
 		(stroke
 			(width 0)
@@ -6896,16 +6776,6 @@
 			(type default)
 		)
 		(uuid "ad40c91b-ca17-4aa7-9f0f-bc87f25185a4")
-	)
-	(wire
-		(pts
-			(xy 168.91 120.65) (xy 172.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcec53c-f0e6-4dab-9e61-1cc672b92e90")
 	)
 	(wire
 		(pts
@@ -7016,16 +6886,6 @@
 			(type solid)
 		)
 		(uuid "b8b3a4af-08b6-4fdc-84c1-1a3a7cb72506")
-	)
-	(wire
-		(pts
-			(xy 181.61 132.08) (xy 181.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f71cde-5762-40f3-82ba-cd034b8ae694")
 	)
 	(wire
 		(pts
@@ -7259,16 +7119,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62) (xy 185.42 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83e4ef3-254d-4c6e-a249-4a3e8c18312c")
-	)
-	(wire
-		(pts
 			(xy 242.57 43.18) (xy 242.57 45.72)
 		)
 		(stroke
@@ -7289,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 172.72 132.08)
+			(xy 172.72 127) (xy 172.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7306,16 +7156,6 @@
 			(type solid)
 		)
 		(uuid "db8e7442-7c89-4643-9ff6-bc7c64130b95")
-	)
-	(wire
-		(pts
-			(xy 179.07 132.08) (xy 181.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9dd77c-652f-49ab-9e03-573e46cd0d9c")
 	)
 	(wire
 		(pts
@@ -7336,16 +7176,6 @@
 			(type solid)
 		)
 		(uuid "dd55f1da-020e-4544-948a-d9812ecfa557")
-	)
-	(wire
-		(pts
-			(xy 195.58 134.62) (xy 195.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "defb6ee2-e966-41c0-826b-11c71cd07f4f")
 	)
 	(wire
 		(pts
@@ -7446,16 +7276,6 @@
 			(type default)
 		)
 		(uuid "ec1e71ab-33d2-4793-a087-aa285f0ece68")
-	)
-	(wire
-		(pts
-			(xy 173.99 132.08) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc7e6df-03d2-4b3c-87a5-65c7ef1312e1")
 	)
 	(wire
 		(pts
@@ -11356,84 +11176,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bf238f0-d00e-44ee-b791-dbb19d477e19")
-		(property "Reference" "C20"
-			(at 162.306 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220p"
-			(at 166.878 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 166.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "979d4861-a6f4-48c2-a957-685d5e2c6345")
-		)
-		(pin "2"
-			(uuid "7f72a853-becc-4112-8e42-8c33cb056fe7")
-		)
-		(instances
-			(project "A2Pico2Lite-SMD"
-				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 104.14 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13467,162 +13209,6 @@
 			(project "A2Pico2Lite-SMD"
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
 					(reference "FU1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7b3a746-99a6-41b3-982f-e660e6812132")
-		(property "Reference" "C22"
-			(at 187.96 137.414 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220p"
-			(at 192.278 137.414 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c8599dc-bf4f-4694-856b-1de1a73090bf")
-		)
-		(pin "2"
-			(uuid "3d0141cc-c0bd-42d3-a5ce-76d2c82aad60")
-		)
-		(instances
-			(project "A2Pico2Lite-SMD"
-				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba6f94b0-dcbb-4bd3-b582-9972e6843e41")
-		(property "Reference" "C21"
-			(at 174.244 134.874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220p"
-			(at 178.308 134.874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16ec422c-f9f1-4231-a2ba-adde73f19695")
-		)
-		(pin "2"
-			(uuid "d4a5b82d-b806-454d-8742-aa44d2b6326f")
-		)
-		(instances
-			(project "A2Pico2Lite-SMD"
-				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "C21")
 					(unit 1)
 				)
 			)
