@@ -1,1 +1,1 @@
-This board was optimized for Pico W.
+Requires Pico2 W.
