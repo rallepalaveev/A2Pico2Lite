@@ -3090,6 +3090,12 @@
 		(uuid "7d77f225-4cd0-49d9-96bf-2e9f72955146")
 	)
 	(junction
+		(at 191.77 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9919023a-5d2a-4fd2-a453-e66d634d7527")
+	)
+	(junction
 		(at 209.55 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3775,6 +3781,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2b70b9-fbfd-408f-a948-0c2f679d0ce8")
+	)
+	(wire
+		(pts
 			(xy 209.55 46.99) (xy 209.55 54.61)
 		)
 		(stroke
@@ -3905,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 63.5) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6c24a4-e913-4477-870a-5396f3f38d3b")
+	)
+	(wire
+		(pts
 			(xy 167.64 137.16) (xy 165.1 137.16)
 		)
 		(stroke
@@ -3962,6 +3988,16 @@
 			(type default)
 		)
 		(uuid "ec1e71ab-33d2-4793-a087-aa285f0ece68")
+	)
+	(wire
+		(pts
+			(xy 191.77 63.5) (xy 191.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4623fb7-69a0-404b-b534-0b0f6133cc70")
 	)
 	(wire
 		(pts
@@ -6440,7 +6476,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 171.45 63.5 270)
+		(at 194.31 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6448,7 +6484,7 @@
 		(dnp no)
 		(uuid "a9dc1884-4b51-4231-b0b4-2c8fd4e31a64")
 		(property "Reference" "#PWR05"
-			(at 167.64 63.5 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6493,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 177.546 63.5 90)
+			(at 200.406 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
