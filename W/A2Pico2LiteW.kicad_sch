@@ -3084,12 +3084,6 @@
 		(uuid "4986c005-8241-4c0d-8a5a-b5cf9160ef6c")
 	)
 	(junction
-		(at 193.04 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "775790b0-5ef9-4ea0-8365-fd4cabc8302f")
-	)
-	(junction
 		(at 142.24 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3274,16 +3268,6 @@
 			(type default)
 		)
 		(uuid "1f7c5589-74fd-4088-bd2e-7e849e4f52dc")
-	)
-	(wire
-		(pts
-			(xy 186.69 105.41) (xy 193.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2039dc81-f8f9-4992-8c3d-4beaaf5d5f6a")
 	)
 	(wire
 		(pts
@@ -5904,6 +5888,71 @@
 			(project "A2Pico.v2.7"
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64f6ddd5-c0d9-46a1-843c-b474f3970b88")
+		(property "Reference" "#PWR011"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.944 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d469100-bae4-4416-92b5-f97c4ea8a8bb")
+		)
+		(instances
+			(project "A2Pico2LiteW"
+				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
