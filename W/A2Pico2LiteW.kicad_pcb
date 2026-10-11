@@ -9280,6 +9280,15 @@
 		(uuid "dc329629-66c3-4746-b9d6-56db7d317cd1")
 	)
 	(via
+		(at 131.9784 111.0234)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e328dc99-f538-444f-847a-54bad161cdc5")
+	)
+	(via
 		(at 134.0104 112.776)
 		(size 0.8)
 		(drill 0.4)
