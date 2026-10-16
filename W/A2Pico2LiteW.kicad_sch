@@ -3108,12 +3108,6 @@
 		(uuid "d0f4581c-3576-4e3e-80a5-48a8a70c74a4")
 	)
 	(junction
-		(at 193.04 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8a2ea33-45e3-4f26-ba76-efd1b2f49803")
-	)
-	(junction
 		(at 137.16 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3671,16 +3665,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 104.14) (xy 193.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ae6615-b3cd-4c86-acfb-65e249587312")
-	)
-	(wire
-		(pts
 			(xy 146.05 50.8) (xy 154.94 50.8)
 		)
 		(stroke
@@ -3698,16 +3682,6 @@
 			(type default)
 		)
 		(uuid "79e9f432-032b-4438-b18a-1b1d645bdea2")
-	)
-	(wire
-		(pts
-			(xy 171.45 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f1fde73-ae05-4890-a29d-391e6b743e4d")
 	)
 	(wire
 		(pts
@@ -3811,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 196.85 88.9)
+			(xy 171.45 88.9) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3938,16 +3912,6 @@
 			(type default)
 		)
 		(uuid "d1052349-72f1-47f1-aac2-d65a33762fe2")
-	)
-	(wire
-		(pts
-			(xy 193.04 88.9) (xy 193.04 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13cdc2d-186d-459c-997d-223ef6124b0e")
 	)
 	(wire
 		(pts
@@ -5696,73 +5660,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d9933f9-af79-4731-be4d-4cb5da75d6bb")
-		(property "Reference" "R2"
-			(at 190.5 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 193.04 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 194.818 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1eb8f0e6-9a42-49f1-aa0f-dfa0e9df8747")
-		)
-		(pin "2"
-			(uuid "929ad44b-38c2-43af-8da1-b93ce2ea1015")
-		)
-		(instances
-			(project "A2Pico2Lite"
-				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 200.66 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5771,14 +5668,14 @@
 		(dnp no)
 		(uuid "55fc43c1-650b-452e-878f-585dd982c8fd")
 		(property "Reference" "R1"
-			(at 205.232 87.63 90)
+			(at 200.66 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 200.66 88.9 90)
 			(effects
 				(font
@@ -6515,71 +6412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 193.04 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96cb52db-2c29-4db4-9871-70427b1f94df")
-		(property "Reference" "#PWR01"
-			(at 193.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad4e6b79-842b-4bc9-a221-3923793b1704")
-		)
-		(instances
-			(project "A2Pico2Lite"
-				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 67.31 270)
 		(unit 1)
@@ -7047,7 +6879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdbbc6cd-a4c7-4087-8ad5-caf3551a746d")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 183.896 100.33 90)
 			(effects
 				(font
@@ -7099,7 +6931,7 @@
 		(instances
 			(project "A2Pico2LiteW"
 				(path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
